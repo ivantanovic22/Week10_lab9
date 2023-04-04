@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/
+css/bootstrap.min.css">
+    <title>Express Demo Guestbook</title>
+</head>
+
+<body>
+    <h1>Guest Book</h1>
+    <div>
+        <div class="text-right">
+            <a href="/new" class="btn btn-primary">
+                Write in the guestbook
+            </a>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                I liked the exhibition
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="card-text">
+                nice
+            </div>
+        </div>
+        <div class="card-text">
+            Written by <a href="/posts/?author={{author}}">{{author}}</a>, on
+            {{published}}
+            </div>
+    </div>
+    </div>
+    <div class="card-body">
+        <div class="card-text">
+            Didn't like it
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="card-text">
+            A really terrible style!
+        </div>
+    </div>
+    <div class="card-text">
+        Written by <a href=#>Ann</a>, on 2020-02-18
+    </div>
+    </div>
+    <div class="card-footer">
+        <p>Written by <a href="/posts/{{author}}">{{author}}</a>, on {{published}}</p>
+    </div>
+    
+</body>
+
+</html>
